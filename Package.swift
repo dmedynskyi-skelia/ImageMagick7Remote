@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "ImageMagick7Remote",
+    name: "ImageMagick7-SPM",
     platforms: [
         .iOS(.v14)
     ],
-    products: [.library(name: "ImageMagick7Remote", targets: ["ImageMagick7Remote"])],
+    products: [.library(name: "ImageMagick7-SPM", targets: ["ImageMagick7-SPM"])],
     dependencies: [],
     targets: [
-        .binaryTarget(name: "ImageMagick7Remote", path: "Sources/ImageMagick7.xcframework"),
+        .binaryTarget(name: "ImageMagick7-SPM", path: "Sources/ImageMagick7.xcframework"),
     ]
 )
